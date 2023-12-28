@@ -6,6 +6,10 @@
       "module": "ESNext",
       "skipLibCheck": true,
 
+      /* Dependency Injection */
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+
       /* Path mappings */
       "paths": {
          "@general/*": ["./src/general/*"],
