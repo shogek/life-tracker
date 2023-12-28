@@ -1,5 +1,8 @@
 .wrapper {
+   width: fit-content;
+   margin-inline: auto;
    display: flex;
    flex-direction: column;
    gap: 4rem;
+   list-style-type: none;
 }

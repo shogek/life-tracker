@@ -1,7 +1,6 @@
 import { DayStats, DayStatsProps } from '@components/day-stats'
-// import { DayStatsListProps } from './types'
-import s from './day-stats-list.module.scss'
 import { DayStatsListProps } from './types'
+import s from './day-stats-list.module.scss'
 
 const DAY_STATS: DayStatsProps[] = [
    {
@@ -42,8 +41,8 @@ export function DayStatsList({}: DayStatsListProps) {
    return (
       <ul className={s.wrapper}>
          {DAY_STATS.map((dayStat) => (
-            <li>
-               <DayStats key={dayStat.date.toISOString()} {...dayStat} />
+            <li key={dayStat.date.toISOString()}>
+               <DayStats {...dayStat} />
             </li>
          ))}
       </ul>

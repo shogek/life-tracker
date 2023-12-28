@@ -12,8 +12,11 @@
 
       /* Path mappings */
       "paths": {
+         "@assets/*": ["./src/general/assets/*"],
+         "@configuration/*": ["./src/general/configuration/*"],
          "@helpers/*": ["./src/general/helpers/*"],
          "@interfaces/*": ["./src/general/interfaces/*"],
+         "@schemas/*": ["./src/general/schemas/*"],
          "@services/*": ["./src/general/services/*"],
          "@components/*": ["./src/components/*"]
       },
