@@ -12,7 +12,9 @@
 
       /* Path mappings */
       "paths": {
-         "@general/*": ["./src/general/*"],
+         "@helpers/*": ["./src/general/helpers/*"],
+         "@interfaces/*": ["./src/general/interfaces/*"],
+         "@services/*": ["./src/general/services/*"],
          "@components/*": ["./src/components/*"]
       },
 
