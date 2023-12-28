@@ -13,8 +13,9 @@
       /* Path mappings */
       "paths": {
          "@assets/*": ["./src/general/assets/*"],
-         "@configuration/*": ["./src/general/configuration/*"],
+         "@configs/*": ["./src/general/configs/*"],
          "@helpers/*": ["./src/general/helpers/*"],
+         "@hooks/*": ["./src/general/hooks/*"],
          "@interfaces/*": ["./src/general/interfaces/*"],
          "@schemas/*": ["./src/general/schemas/*"],
          "@services/*": ["./src/general/services/*"],
@@ -35,6 +36,6 @@
       "noUnusedParameters": true,
       "noFallthroughCasesInSwitch": true
    },
-   "include": ["src"],
+   "include": ["src", "src/general/configs/supabase.config/.ts"],
    "references": [{ "path": "./tsconfig.node.json" }]
 }
